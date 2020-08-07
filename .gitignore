@@ -73,4 +73,6 @@ typings/
 yarn-error.log
 
 # Build
-dist/
+node_modules
+*.png
+package-lock.json

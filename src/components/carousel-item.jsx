@@ -9,7 +9,6 @@ import plusIcon from '../assets/style/static/plus-icon.png';
 // {ver}
 // const CarouselItem=({cover,title,year,contentRating,duration})=>{
    const CarouselItem=(props)=>{
-    console.log(props)
     const {id,cover,title,year,contentRating,duration,isList}=props;   
     //handleSetFavorite va manejar el guardado de nuestros favoritos
     const  handleSetFavorite=()=>{

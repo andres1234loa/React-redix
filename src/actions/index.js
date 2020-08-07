@@ -20,7 +20,10 @@ export const deleteFavorite=payload=>({
 })
 
 
-export const loginRequest=payload=>({
+export const loginRequest=payload=>{
+  
+  return{
   type: 'LOGIN_REQUEST',
   payload,
-})
+  
+}}

@@ -20,6 +20,7 @@ const reducer=(state,action)=>{
 
         case 'LOGIN_REQUEST':
         return{
+            
             //rescatar el estado que se tiene 
             ...state,    
             user:action.payload,
